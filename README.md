@@ -20,11 +20,11 @@ Unfortunately, the taxonomy files present in Open Food Facts are really long to 
 
 This project provides an user-friendly interface developed in React for editing these taxonomies with ease. This tool is helpful for contributors to visualize a node's translations, properties, parents and children in a single page. The editor allows users to perform CRUD operations on the taxonomy and on the nodes present in it too. A fast-search mechanism for finding nodes within the taxonomy has also been implemented successfully.
 
-The introduction of this Taxonomy Editor would help existing  contributors edit taxnomoies seamlessly, and will encourage more contributions from the wonderful community of Open Food Facts.
+The introduction of this Taxonomy Editor would help existing  contributors edit taxonomies seamlessly, and will encourage more contributions from the wonderful community of Open Food Facts.
 
 ## Completed Tasks
 
-- Designed an brand-new architecture for the entire project by decoupling the editor from the source taxonomy files in Product Opener.
+- Designed a brand-new architecture for the entire project by decoupling the editor from the source taxonomy files in Product Opener.
 - Created a [React frontend](https://github.com/openfoodfacts/taxonomy-editor/tree/main/taxonomy-editor-frontend) with the following features:
     - Display root nodes present in a taxonomy
     - Creating and deleting new root nodes in a taxonomy
@@ -37,14 +37,16 @@ The introduction of this Taxonomy Editor would help existing  contributors edit 
 - Reviewed and created Docker related files for setting up the project in development and production.
 
 ## Ongoing and Future Tasks
-The Taxonomy Editor is currently a functional prototype, which can gauge community interest and can bring lot more taxonomy contributions for Open Food Facts. All the core features required by a contributor to edit a taxonomy, has been implemented within the given time frame. Some features related to GitHub integration is still ongoing, and will be completed soon. 
+The Taxonomy Editor is currently a functional prototype, which can gauge community interest and can bring lot more taxonomy contributions for Open Food Facts. All the core features required by a contributor to edit a taxonomy, has been implemented within the given time frame. Some features related to integration with GitHub are being finetuned, and will be completed soon.
 
-But, there is a lot of scope for improvement in this project, with respect to both the React frontend and FastAPI backend. All the future work that can be done on the project have been documented as [GitHub Issues](https://github.com/openfoodfacts/taxonomy-editor/issues) within the project itself.
+There is a lot of scope for development in this project, with respect to both the React frontend and FastAPI backend. All the future work that can be done on the project have been documented as [GitHub Issues](https://github.com/openfoodfacts/taxonomy-editor/issues) within the project itself.
 
 ## Challenges and Takeaways
-- As this project was brand new, identifying an overall architecture and tech stack for the Taxonomy Editor took a long time. But through constant collaboration and communication with my mentors, we were able to be finalize this and start working on the project.
+- As this project was built from the ground-up, identifying an overall architecture and tech stack for the Taxonomy Editor took a long time. But through constant collaboration and communication with my mentors, we were able to finalize on the architecture and start working on the project immediately.
 - One of the biggest challenges while working on this project, was time management. I had put an estimate of ~12 weeks for finishing this project, but I needed to extend the deadline by another 4 weeks to bring the project to a Minimum Viable Product (MVP). My mentors were supportive throughout and helped me to complete all the planned features within the new deadline.
-- Before GSoC, I had very little knowledge on developing websites with React. It was a new and exciting challenge learning a new language and I'm confident that my knowledge in React will be put into good use, while working on other projects using it.
+- Before GSoC, I had very little knowledge on developing websites with React. Through this project, I was able to use React effectively to build many complex and resuable components for the Taxonomy Editor. It was a new and exciting challenge learning a new language and I'm confident that my knowledge in React will be put into good use, while working on other projects.
+- Being a Pythonista, I love using and creating new programs/tools using Python. This project helped me learn a lot about the creation of asynchronous API's and integrating them with database transactions to enable concurrency.
+- Since taxonomies are essentially DAGs at its base, me and my mentors decided on using Neo4j as the database for the editor. Even though I hadn't used Neo4j, I was surprised by the user-friendliness of the Cypher Query language and was able to create complex queries in no time!
 - My code quality and documentation ability has improved drastically, thanks to detailed reviews from mentors over the course of this project.
 
 ## Acknowledgements
