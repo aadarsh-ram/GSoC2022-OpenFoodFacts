@@ -16,11 +16,11 @@ The Open Food Facts database contains a lot of information on food products, suc
 
 A taxonomy in Open Food Facts is a raw text file containing a Directed Acyclic Graph (DAG) where each leaf node has one or more parent nodes. It is mainly used for classification and translation of various food products within the database. Hence, taxonomies are at the heart of data structures in the Open Food Facts database and must be maintained properly.
 
-Unfortunately, the taxonomy files present in Open Food Facts are really long to read (The [ingredients.txt](https://github.com/openfoodfacts/openfoodfacts-server/blob/main/taxonomies/ingredients.txt) taxonomy alone has around 80000 lines!) and cumbersome to edit by contributors.
+The taxonomy files present in Open Food Facts are long to read ([ingredients.txt](https://github.com/openfoodfacts/openfoodfacts-server/blob/main/taxonomies/ingredients.txt) taxonomy alone has around 80000 lines!) and cumbersome to edit by contributors.
 
-This project provides an user-friendly interface developed in React for editing these taxonomies with ease. This tool is helpful for contributors to visualize a node's translations, properties, parents and children in a single page. The editor allows users to perform CRUD operations on the taxonomy and on the nodes present in it too. A fast-search mechanism for finding nodes within the taxonomy has also been implemented successfully.
+This project provides an User-Friendly interface developed for editing taxonomies with ease. This tool is helpful for contributors to visualize a node's translations, properties, parents and children in a single page. The editor allows users to perform CRUD operations on the taxonomy and on the nodes present. A fast search mechanism for finding nodes within the taxonomy has also been implemented successfully.
 
-The introduction of this Taxonomy Editor would help existing  contributors edit taxonomies seamlessly, and will encourage more contributions from the wonderful community of Open Food Facts.
+The introduction of this Taxonomy Editor would help existing contributors edit taxonomies seamlessly and will encourage more contributions from the wonderful community of Open Food Facts.
 
 ## Completed Tasks
 
@@ -37,22 +37,22 @@ The introduction of this Taxonomy Editor would help existing  contributors edit 
 - Reviewed and created Docker related files for setting up the project in development and production.
 
 ## Ongoing and Future Tasks
-The Taxonomy Editor is currently a functional prototype, which can gauge community interest and can bring lot more taxonomy contributions for Open Food Facts. All the core features required by a contributor to edit a taxonomy, has been implemented within the given time frame. Some features related to integration with GitHub are being finetuned, and will be completed soon.
-
-There is a lot of scope for development in this project, with respect to both the React frontend and FastAPI backend. All the future work that can be done on the project have been documented as [GitHub Issues](https://github.com/openfoodfacts/taxonomy-editor/issues) within the project itself.
+The Taxonomy Editor is an MVP, which can gauge community interest and can bring a lot more taxonomy contributions for Open Food Facts. All the core features required by a contributor to edit a taxonomy, have been implemented within the given time frame. Some of the features related to integration with GitHub are being fine-tuned.
+ 
+We have a lot of scope for the next phase of this Project in converting the MVP to a full-blown version. I have documented the same in [GitHub]((https://github.com/openfoodfacts/taxonomy-editor/issues)) within the project.
 
 ## Challenges and Takeaways
-- As this project was built from the ground-up, identifying an overall architecture and tech stack for the Taxonomy Editor took a long time. But through constant collaboration and communication with my mentors, we were able to finalize on the architecture and start working on the project immediately.
-- One of the biggest challenges while working on this project, was time management. I had put an estimate of ~12 weeks for finishing this project, but I needed to extend the deadline by another 4 weeks to bring the project to a Minimum Viable Product (MVP). My mentors were supportive throughout and helped me to complete all the planned features within the new deadline.
-- Before GSoC, I had very little knowledge on developing websites with React. Through this project, I was able to use React effectively to build many complex and resuable components for the Taxonomy Editor. It was a new and exciting challenge learning a new language and I'm confident that my knowledge in React will be put into good use, while working on other projects.
-- Being a Pythonista, I love using and creating new programs/tools using Python. This project helped me learn a lot about the creation of asynchronous API's and integrating them with database transactions to enable concurrency.
-- Since taxonomies are essentially DAGs at its base, me and my mentors decided on using Neo4j as the database for the editor. Even though I hadn't used Neo4j, I was surprised by the user-friendliness of the Cypher Query language and was able to create complex queries in no time!
+- I have invested a good amount of time during the project start for developing understanding on the overall architecture and tech stack for the Taxonomy Editor. Thanks to my mentors, with their mentorship and guidance, I was able to move faster with the deliverables of the project.
+- One of the most exciting parts of this project were my learnings on time management. I have to manage my priorities between my college classroom sessions, semester exams, hackathons and projects. My mentors were supportive throughout and helped me to complete all the planned deliverables with quality.
+- Before GSoC, I had very little knowledge on developing websites with React. Through this project, I was able to use React effectively to build many complex and reusable components for the Taxonomy Editor. I enjoyed the learning process of a new tool.
+- Being a Pythonista, I love creating new programs/tools using Python. This project helped me learn a lot about the creation of asynchronous API's and integrating them with database transactions to enable concurrency.
+- Since taxonomies are essentially DAGs at its base, me and my mentors decided on using Neo4j as the database for the editor. Even though I hadn't used Neo4j, I was surprised by the user-friendliness of the Cypher Query Language and was able to create complex queries in no time!
 - My code quality and documentation ability has improved drastically, thanks to detailed reviews from mentors over the course of this project.
 
 ## Acknowledgements
 I'd like to thank all my mentors for helping me throughout this project. A special shoutout to [Alex Garel](https://github.com/alexgarel) and [Daniel T](https://github.com/nobeeakon), for their comprehensive code reviews and guidance. I would also like to thank [Bryan Han](https://github.com/BryanH01) for his work on the creation of the parser and other components related to it.
 
-Contributing to Open Food Facts has been amazing, and I am looking forward to contributing more in the future! I am glad to have worked with the amazing set of people in Open Food Facts. I am extremely thankful to Google Summer of Code for providing me with this opportunity to enhance my programming skills, and learn a lot about open-source development along the way.
+Contributing to Open Food Facts has been amazing, and I am looking forward to contributing more in the future! I am glad to have worked with the amazing set of people in Open Food Facts. I am extremely thankful to Google Summer of Code for providing me with this opportunity to enhance my programming skills and learn a lot about open-source development along the way.
 
 ## Pull Requests
 
