@@ -1,6 +1,6 @@
 # GSoC 2022 Report
 
-![Logos](assets/Logos.jpg)
+<img src="assets/Logos.jpg" alt="Logos" width="600"/>
 
 **Author**: [Aadarsh Anantha Ramakrishnan](https://github.com/aadarsh-ram)
 
@@ -57,10 +57,10 @@ Contributing to Open Food Facts has been amazing, and I am looking forward to co
 ## Pull Requests
 
 ### **Pre-GSoC**
-### folksonomy_api
+### [folksonomy_api](https://github.com/openfoodfacts/folksonomy_api)
 - #86 - [fix: "Barcode limit: 13 digits or more?"](https://github.com/openfoodfacts/folksonomy_api/pull/86)
 
-### openfoodfacts-python
+### [openfoodfacts-python](https://github.com/openfoodfacts/openfoodfacts-python)
 - #88 - [feat: Automatic release to PyPI + fix: failing flake8 tests](https://github.com/openfoodfacts/openfoodfacts-python/pull/88)
 - #89 - [fix: Automate PyPI workflow](https://github.com/openfoodfacts/openfoodfacts-python/pull/89)
 - #90 - [build: Generate automatic documentation](https://github.com/openfoodfacts/openfoodfacts-python/pull/90)
@@ -71,7 +71,7 @@ Contributing to Open Food Facts has been amazing, and I am looking forward to co
 - #102 - [docs: Update PR template](https://github.com/openfoodfacts/openfoodfacts-python/pull/102)
 
 ### **GSoC**
-### taxonomy-editor
+### [taxonomy-editor](https://github.com/openfoodfacts/taxonomy-editor)
 - #9 - [docs: Update README.md](https://github.com/openfoodfacts/taxonomy-editor/pull/9)
 - #10 - [feat: Setup basic FastAPI project](https://github.com/openfoodfacts/taxonomy-editor/pull/10)
 - #19 - [fix: Changed JSON according to spec](https://github.com/openfoodfacts/taxonomy-editor/pull/19)
@@ -97,4 +97,4 @@ Contributing to Open Food Facts has been amazing, and I am looking forward to co
 - #103 - [fix: Update requirements.txt for backend](https://github.com/openfoodfacts/taxonomy-editor/pull/103)
 - #104 - [feat: Add new endpoint for fetching root nodes](https://github.com/openfoodfacts/taxonomy-editor/pull/104)
 
-## Thank you [Open Food Facts](https://world.openfoodfacts.org/) for a amazing summer of code!
+## Thank you [Open Food Facts](https://world.openfoodfacts.org/) for an amazing summer of code!
