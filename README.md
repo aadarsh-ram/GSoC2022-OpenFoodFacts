@@ -1,6 +1,6 @@
 # GSoC 2022 Report
 
-<img src="assets/Logos.jpg" alt="Logos" width="600"/>
+<img src="./assets/Logos.webp" alt="Logos" width="600"/>
 
 **Author**: [Aadarsh Anantha Ramakrishnan](https://github.com/aadarsh-ram)
 
